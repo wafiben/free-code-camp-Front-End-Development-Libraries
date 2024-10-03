@@ -1,0 +1,26 @@
+.panel{
+  background-color: red;
+  height: 70px;
+  border: 2px solid green;
+}
+
+
+
+.big-panel{
+  @extend .panel;
+  width: 150px;
+  font-size: 2em;
+}
+
+
+==>
+
+.big-panel{
+  background-color: red;
+  height: 70px;
+  border: 2px solid green;
+  width: 150px;
+  font-size: 2em;
+}
+
+
